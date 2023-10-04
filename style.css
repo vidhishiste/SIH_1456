@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -66,12 +67,18 @@ main {
     max-width: 500px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #f8fafb;
+    /* background-color: #f8fafb; */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: transparent;
+    backdrop-filter: blur(9.1px);  /* blurred bg */
+}
+
+section {
+    
 }
 
 h2 {
-    color: #333;
+    color: white;
 }
 
 #landing {
@@ -81,22 +88,29 @@ h2 {
 #landing p {
     font-size: 1.2em;
     margin-top: 10px;
+    color: darkturquoise;
 }
 
 button {
-    background-color: #3498db;
+    /* background: transparent; */
+    /* backdrop-filter: blur(9.8px); */
+    /* background-color: #7907f2; */
+    background-color: rgba(121,7,242,0.9);
     color: white;
     border: none;
     padding: 10px 20px;
     font-size: 1.2em;
     cursor: pointer;
     margin-top: 20px;
+    border-radius: 10px;
 }
 
-button:disabled {
-    background-color: #ccc;
+/* button:enabled{
+    background-color:  ;
+    background: transparent;
     cursor: not-allowed;
-}
+    
+} */
 
 #transcription {
     margin-top: 30px;
