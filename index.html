@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Speech to Text Web App</title>
+</head>
+<body background="bg.jpg"> 
+    
+    <header>
+        <nav>
+            <div class="container">
+                <h1 class="logo">BHASHA-VAANI</h1>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <section id="landing">
+            <h2>Convert Your Speech to Text</h2>
+            <p>Turn your spoken words into written text with ease.</p>
+            <button id="startButton">Start Recording</button>
+            <button id="stopButton" disabled>Stop Recording</button>
+        </section>
+        <section id="transcription">
+            <h2>Transcription Result</h2>
+            <!-- <div id="transcriptionText"></div> -->
+            <input type="text" id="output">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Speech to Text Web App</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
